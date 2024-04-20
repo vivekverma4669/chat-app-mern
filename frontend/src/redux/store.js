@@ -13,5 +13,4 @@ const store = configureStore({
   },
   middleware: (mid) => [...mid(), api.middleware],
 });
-
 export default store;
