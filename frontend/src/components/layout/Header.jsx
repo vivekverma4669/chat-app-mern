@@ -8,6 +8,7 @@ import {
   Tooltip,
   Typography,
 } from "@mui/material";
+
 import React, { Suspense, lazy, useState } from "react";
 import { orange } from "../../constants/color";
 import {
@@ -78,7 +79,10 @@ const Header = () => {
         <AppBar
           position="static"
           sx={{
-            bgcolor: orange,
+            // bgcolor: orange,
+         
+          }}
+          style={{background: "radial-gradient(919px at 1.7% 6.1%, rgb(41, 58, 76) 0%, rgb(40, 171, 226) 100.2%)"
           }}
         >
           <Toolbar>
@@ -88,7 +92,7 @@ const Header = () => {
                 display: { xs: "none", sm: "block" },
               }}
             >
-              Chattu
+              Mern Chat
             </Typography>
 
             <Box

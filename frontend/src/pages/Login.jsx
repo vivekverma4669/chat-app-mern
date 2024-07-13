@@ -121,10 +121,11 @@ const Login = () => {
         component={"main"}
         maxWidth="xs"
         sx={{
-          height: "100vh",
+          height: "107vh",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
+         
         }}
       >
         <Paper
@@ -134,6 +135,9 @@ const Login = () => {
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
+            borderRadius :"7px",
+          //  background: "linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%)"
+          background: "linear-gradient(to top, #a8edea 0%, #fed6e3 100%)"
           }}
         >
           {isLogin ? (
